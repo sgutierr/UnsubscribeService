@@ -5,8 +5,11 @@
   <groupId>org.redhat</groupId>
   <artifactId>BajaServicios</artifactId>
   <version>1.0</version>
-  <packaging>kjar</packaging>
+  <packaging>pom</packaging>
   <name>BajaServicios</name>
+  <modules>
+    <module>unsubscribe</module>
+  </modules>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
